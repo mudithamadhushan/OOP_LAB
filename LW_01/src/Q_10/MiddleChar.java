@@ -1,0 +1,19 @@
+package Q_10;
+
+
+import java.util.Scanner;
+
+class MiddleChar {
+    public static void main(String[] args) {
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Enter the odd length String : ");
+        String text = scanner.nextLine();
+
+        int length = text.length();
+        char middle_letter;
+        middle_letter =  text.charAt((length / 2));
+        System.out.println(middle_letter);
+
+
+    }
+}
